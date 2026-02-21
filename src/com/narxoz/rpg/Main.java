@@ -75,7 +75,6 @@ public class Main {
         registry.register("goblin", goblin);
         registry.register("fireDragon", fireDragon);
 
-        // Clone for elite version
         Enemy eliteGoblin = registry.create("goblin");
         eliteGoblin.multiplyStats(2.0); 
         eliteGoblin.displayInfo();
